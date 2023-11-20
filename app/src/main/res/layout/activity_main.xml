@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        tools:ignore="InefficientWeight,UselessParent">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ACTIVITY 1"
+            android:layout_margin="10dp"
+            android:pedding="20dp"
+            android:textSize="30dp"
+            tools:ignore="HardcodedText,SpUsage,VisualLintButtonSize">
+        </Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HADIR SASTRA IMAM "
+            android:layout_margin="10dp"
+            android:pedding="20dp"
+            android:textSize="30sp"
+            tools:ignore="HardcodedText,VisualLintButtonSize">
+        </Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:pedding="20dp"
+            android:text=""
+            android:textSize="30dp"
+            tools:ignore="SpUsage,SpeakableTextPresentCheck,VisualLintButtonSize">
+
+        </Button>
+
+    </LinearLayouT>
+
+
+
+</LinearLayout>
